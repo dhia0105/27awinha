@@ -1,0 +1,16 @@
+I first steps:
+1 - Main page
+2 - login page
+with android studio, xml, java
+login page communicate with need a server side app serving endpoints one of them is for autentification with jwt
+3 - server. aka. backend: with java springboot : hesitant between graphql api or rest api
+4 - mongo db database
+Some key point:
+++++The point of sharing the users location is important for filtering fake info
+++++ To write an info about the bus location you need to login.
+++++ To view or rate an info/member you do not need to create a profil
+*** not sure yet if the old info should be saved or no in the begining, maybe saving the user rating is enough in the begining
+$$$$$ the architecture and the tech stack are kind of clear for now $$$$$
+Points to work on for next steps:
+have a clear idea about the user experience, start having a look on spring boot and consuming apis from the front app side with java
+also check java coding best practices is important
