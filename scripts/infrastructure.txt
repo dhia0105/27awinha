@@ -36,3 +36,13 @@ mvn --version
 
 # to start a install spring boot from scratch check this website
 https://start.spring.io/
+
+### Classpath
+ is a parameter in the Java Virtual Machine or the Java compiler
+that specifies the location of user-defined classes and packages. The parameter may be set either on the command-line, or through an environment variable
+
+### beans
+a Java Bean is a reusable software component that can be visually manipulated in builder tools
+
+### run the spring boot app
+./mvnw spring-boot:run
