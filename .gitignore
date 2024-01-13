@@ -1,0 +1,4 @@
+# Dev environment
+venv*
+# secrets 
+secrets.txt

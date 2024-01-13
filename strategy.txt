@@ -14,3 +14,7 @@ $$$$$ the architecture and the tech stack are kind of clear for now $$$$$
 Points to work on for next steps:
 have a clear idea about the user experience, start having a look on spring boot and consuming apis from the front app side with java
 also check java coding best practices is important
+javac to compile the project
+java to run the files
+
+
