@@ -1,0 +1,38 @@
+# save env variables permanently in ubuntu
+sudo nano ~/.bashrc
+# install java jdk
+# download 
+wget <url_link_to_file>
+# unzip downloaded file
+tar -xvf <downloaded file name>
+example:
+wget https://download.java.net/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_linux-x64_bin.tar.gz
+$ tar -xvf openjdk-13.0.1_linux-x64_bin.tar.gz
+
+#set env variable java_home:
+JAVA_HOME='/opt/jdk-13.0.1'
+PATH="$JAVA_HOME/bin:$PATH"
+export PATH
+
+# to check if java is working fine
+java --version
+ 
+# download Maven
+# maven is package manager for java(creates jar file, uselfull for dependencies and i will discover later) and has also other utilities
+# they say its a little bit similar pip for python 
+# also spring boot needs it to work
+example:
+wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+tar -xvf apache-maven-3.6.3-bin.tar.gz
+
+also :
+M2_HOME='/opt/apache-maven-3.6.3'
+PATH="$M2_HOME/bin:$PATH"
+export PATH
+
+# check installation and version
+mvn --version
+# i read that you can use gradle but maven is only used for pure java projects and for maven is used for small projects like this one
+
+# to start a install spring boot from scratch check this website
+https://start.spring.io/
