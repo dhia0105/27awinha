@@ -1,30 +1,30 @@
 package winha.springboot.dto;
-
+/* First comment in JAVA */
+/* similar repo https://github.com/eugenp/tutorials/tree/master/spring-web-modules/spring-resttemplate-1 */  
 public class Message {
     private String content;
     private String sender;
-    public message() {
+    public Message() {
 
     }
-    public message(String content, String sender) {
+    public Message(String content, String sender) {
         this.content = content;
         this.sender = sender;
     }
 
     public String getContent() {
-        return Content;
+        return content;
     }
 
-    public void setContent(String Content) {
-        this.Content = Content;
-    }
-
-    public String getsender() {
-        return sender;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public void setsender(String sender) {
         this.sender = sender;
+    }
+    public String getSender() {
+        return sender;
     }
 
 }

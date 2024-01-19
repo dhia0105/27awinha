@@ -1,6 +1,6 @@
 package winha.springboot;
 
-import com.winha.springboot.dto.Message;
+import winha.springboot.dto.Message;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,8 +14,9 @@ public class HelloController {
 	}
 	@PostMapping(value = "/createMessage", consumes = "application/json", produces = "application/json")
     public Message createPerson(@RequestBody Message message) {
-        System.out.println(Message.getContent());
-		System.out.println(Message.getSender());
+        System.out.println(message.getContent());
+		System.out.println(message.getSender());
+		return null;
     }
 
 }
