@@ -16,7 +16,6 @@ public class HelloController {
     public Message createPerson(@RequestBody Message message) {
         System.out.println(message.getContent());
 		System.out.println(message.getSender());
-		return null;
     }
 
 }
