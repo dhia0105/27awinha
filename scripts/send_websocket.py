@@ -1,12 +1,12 @@
 from websocket import create_connection
 import json
-send_url = "ws://localhost:8080/gs-guide-websocket/app"
+send_url = "ws://localhost:8080/gs-guide-websocket/app/hello/websocket"
 ws_send = create_connection(send_url)
 print("Sending 'Hello, World'...")
 message = {
     "content":"hello, world",
-    "sender":"dhia"
 }
-endpoint = "/app/hello"
-ws_send.send(json.dumps(message))
+messages = [ message, message, message]
+list_message = '"hello, world", "dhia"'
+ws_send.send(json.dumps(messages, separators=(',', ':')))
 print("Sent")
