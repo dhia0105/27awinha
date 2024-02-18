@@ -7,4 +7,5 @@ Unfortunately, we do not having bus tracking systems implemented in the buses fo
 This app can scale to track every bus/tram position in tunisia. And if anyone has a taken a bus he reports the bus position, this would help other people who are waiting for the same bus to take the decision if they are going to wait for it or to continue their journey with another utility.
 
 ps: i am a 26 old guy that waisted almost 1 year of his life waiting for buses that never came. 😞
-ps: my name is eya ziri ,i aim to change the student situation to a better one
+
+ps: my name is eya ziri, i aim to change the student situation to a better one
